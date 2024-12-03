@@ -1,4 +1,4 @@
-from src.read_file import read_file_lines
+from src.read_file import read_input_file
 from src.template.part_1 import Part1
 
 
