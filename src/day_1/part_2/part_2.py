@@ -1,6 +1,6 @@
 import logging
 
-from template.part_1 import Part1
+from src.day_1.part_1 import Part1
 
 logger = logging.getLogger(__name__)
 

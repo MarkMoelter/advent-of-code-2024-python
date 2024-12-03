@@ -1,6 +1,6 @@
 import logging
 
-from src.template.part_1 import Part1
+from src.day_1.part_1 import Part1
 from src.day_1.part_2 import Part2
 from src.read_file import read_input_file
 
@@ -11,6 +11,7 @@ def main():
 
     # part 1
     p1 = Part1(input_file)
+    print(p1.split_lists())
 
     # part 2
     p2 = Part2(input_file)
