@@ -1,4 +1,5 @@
 import logging
+import math
 import re
 
 logger = logging.getLogger(__name__)
@@ -29,3 +30,17 @@ class Part1:
             list2.append(split_int[1])
 
         return list1, list2
+
+    def solution(self) -> int:
+        left_list, right_list = self.split_lists()
+
+        # Sort lists
+        left_list.sort()
+        right_list.sort()
+
+        tot_distance = 0
+
+        for val1, val2 in zip(left_list, right_list):
+            tot_distance += abs(val1 - val2)
+
+        return tot_distance

@@ -16,3 +16,9 @@ def test_split_list(get_test_input):
     assert len(list1) == len(list2)
     assert list1 == [3, 4, 2, 1, 3, 3]
     assert list2 == [4, 3, 5, 3, 9, 3]
+
+def test_solution(get_test_input):
+    p1 = Part1(get_test_input)
+    sol = p1.solution()
+
+    assert sol == 11

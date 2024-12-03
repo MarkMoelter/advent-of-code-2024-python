@@ -6,12 +6,12 @@ from src.read_file import read_input_file
 
 
 def main():
-    # input_file = read_input_file()
-    input_file = read_input_file("test_input.txt")
+    input_file = read_input_file()
+    # input_file = read_input_file("test_input.txt")
 
     # part 1
     p1 = Part1(input_file)
-    print(p1.split_lists())
+    logging.info(p1.solution())
 
     # part 2
     p2 = Part2(input_file)
