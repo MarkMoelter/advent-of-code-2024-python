@@ -4,8 +4,8 @@ logger = logging.getLogger(__name__)
 
 
 class Part1:
-    def __init__(self, input_file: list[str]) -> None:
-        self.input_file = input_file
+  def __init__(self, input_file: list[str]) -> None:
+    self.input_file = input_file
 
-    def solution(self):
-        pass
+  def solution(self):
+    pass
