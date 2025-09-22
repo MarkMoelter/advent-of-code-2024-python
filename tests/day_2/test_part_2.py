@@ -27,6 +27,8 @@ def test_solution(get_test_input):
   ([8, 6, 4, 4, 1], True),
   ([1, 3, 6, 7, 9], True),
   ([1, 4, 1, 4, 1], False),
+  ([65, 68, 71, 72, 71], True),
+  ([6, 9, 10, 7, 9, 12, 17], False),
 ])
 def test_report_is_safe(level, expected):
   p2 = Part2(["not important string"])
