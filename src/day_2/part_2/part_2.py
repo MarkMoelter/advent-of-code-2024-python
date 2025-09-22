@@ -52,7 +52,7 @@ class Part2(Part1):
       sign_matches_prev_sign = sign == prev_sign
 
       if not is_acceptable_difference or not sign_matches_prev_sign:
-        report.pop(idx - 1)  # Remove previous value from report
+        report.pop(idx)  # Remove previous value from report
         return Part2.is_safe(report, tolerance - 1)
 
     return True
