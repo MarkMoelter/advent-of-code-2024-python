@@ -10,4 +10,4 @@ class Part2(Part1):
     super().__init__(input_file)
 
   def solution(self):
-    return 48
+    pass

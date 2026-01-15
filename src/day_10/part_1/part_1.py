@@ -1,13 +1,11 @@
 import logging
 
-from src.template.part_1 import Part1
-
 logger = logging.getLogger(__name__)
 
 
-class Part2(Part1):
+class Part1:
   def __init__(self, input_file: list[str]) -> None:
-    super().__init__(input_file)
+    self.input_file = input_file
 
   def solution(self):
-    return 48
+    pass
