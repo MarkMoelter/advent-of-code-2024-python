@@ -13,7 +13,7 @@ def main():
   logging.info(p1.solution())
 
   # part 2
-  p2 = Part2(input_file)
+  p2 = Part2(input_file, "MAS")
   logging.info(p2.solution())
 
 
