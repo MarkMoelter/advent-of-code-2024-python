@@ -1,8 +1,8 @@
 import logging
 
+from src.day_5.part_1 import Part1
+from src.day_5.part_2 import Part2
 from src.read_file import read_input_file
-from src.template.part_1 import Part1
-from src.template.part_2 import Part2
 
 
 def main():

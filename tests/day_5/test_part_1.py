@@ -1,13 +1,13 @@
 import pytest
 
+from src.day_5.part_1 import Part1
 from src.read_file import read_input_file
-from src.template.part_1 import Part1
 
 
 @pytest.fixture
 def get_test_input():
   return read_input_file(
-    r"C:\Users\marke\PycharmProjects\advent-of-code-2024-python\src\template\test_input.txt")
+      r"C:\Users\marke\PycharmProjects\advent-of-code-2024-python\src\day_5\test_input.txt")
 
 
 @pytest.skip(allow_module_level=True)
